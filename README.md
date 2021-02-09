@@ -84,7 +84,7 @@ chmod +x quickstart.sh
 - In Cloud Shell, run the following command to build the Docker container image in Cloud Build.
 ```
 gcloud builds submit --tag gcr.io/${GOOGLE_CLOUD_PROJECT}/quickstart-image .
-
+```
 --Important: Don't miss the dot (".") at the end of the command. The dot specifies that the source code is in the current working directory at build time.
 
 - When the build completes, your Docker image is built and pushed to Container Registry.
